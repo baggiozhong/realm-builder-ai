@@ -1,37 +1,37 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Zap, Shield, Globe, Rocket, Brain, Users } from "lucide-react";
+import { Zap, Shield, Target, Rocket, Brain, Users } from "lucide-react";
 
 const Features = () => {
   const features = [
     {
-      icon: <Zap className="h-12 w-12 text-primary" />,
-      title: "极速性能",
-      description: "采用最新技术栈，确保应用运行速度比行业标准快10倍以上。"
-    },
-    {
       icon: <Shield className="h-12 w-12 text-primary" />,
-      title: "安全可靠",
-      description: "企业级安全保障，多层加密技术，保护您的数据安全无忧。"
+      title: "全面业务安全",
+      description: "ISO27001认证的安全保护体系，确保业务数据和AI模型的安全可控。"
     },
     {
-      icon: <Globe className="h-12 w-12 text-primary" />,
-      title: "全球部署",
-      description: "支持全球多地区部署，为用户提供最优的访问体验。"
-    },
-    {
-      icon: <Rocket className="h-12 w-12 text-primary" />,
-      title: "快速上线",
-      description: "从需求到上线仅需几天时间，让您的想法快速变为现实。"
+      icon: <Zap className="h-12 w-12 text-primary" />,
+      title: "高效赋能",
+      description: "一键接入芯AI能力助手，高效助力芯片设计，让AI成为研发得力助手。"
     },
     {
       icon: <Brain className="h-12 w-12 text-primary" />,
-      title: "智能分析",
-      description: "AI驱动的数据分析，为您的业务决策提供深度洞察。"
+      title: "持续优化",
+      description: "基于实际业务数据持续训练，确保AI模型在企业环境中不断进化。"
     },
     {
       icon: <Users className="h-12 w-12 text-primary" />,
-      title: "团队协作",
-      description: "强大的团队协作功能，让分布式办公变得简单高效。"
+      title: "专业团队",
+      description: "拥有深厚AI技术背景的专业团队，为客户提供全方位技术支持。"
+    },
+    {
+      icon: <Target className="h-12 w-12 text-primary" />,
+      title: "行业专精",
+      description: "深耕芯片设计和AI治理领域，提供针对性的行业解决方案。"
+    },
+    {
+      icon: <Rocket className="h-12 w-12 text-primary" />,
+      title: "快速部署",
+      description: "成熟的产品化方案，支持快速部署和集成，快速见效。"
     }
   ];
 
@@ -40,11 +40,11 @@ const Features = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            为什么选择
-            <span className="bg-gradient-primary bg-clip-text text-transparent"> 我们 </span>
+            核心
+            <span className="bg-gradient-primary bg-clip-text text-transparent"> 优势 </span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            我们提供全方位的数字化解决方案，帮助您的企业在竞争中脱颖而出
+            专注AI可信技术研究，为企业提供安全可靠的AI解决方案
           </p>
         </div>
 

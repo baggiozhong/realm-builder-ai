@@ -25,9 +25,9 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: <Mail className="h-6 w-6" />, label: "邮箱", value: "contact@techcorp.com" },
-    { icon: <Phone className="h-6 w-6" />, label: "电话", value: "+86 400-123-4567" },
-    { icon: <MapPin className="h-6 w-6" />, label: "地址", value: "北京市朝阳区科技园区" }
+    { icon: <Mail className="h-6 w-6" />, label: "邮箱", value: "consultant@tri-source.ai" },
+    { icon: <Phone className="h-6 w-6" />, label: "电话", value: "商务合作咨询" },
+    { icon: <MapPin className="h-6 w-6" />, label: "地址", value: "深圳市南山区" }
   ];
 
   return (
@@ -111,9 +111,9 @@ const Contact = () => {
 
             <Card className="bg-gradient-primary p-6">
               <CardContent className="p-0 text-primary-foreground">
-                <h4 className="text-xl font-semibold mb-4">准备开始您的项目？</h4>
+                <h4 className="text-xl font-semibold mb-4">准备开始AI转型？</h4>
                 <p className="mb-6 opacity-90">
-                  我们提供免费的项目咨询服务，帮助您制定最适合的数字化解决方案。
+                  我们提供专业的AI可信技术咨询服务，帮助您制定最适合的AI解决方案。
                 </p>
                 <Button variant="secondary" size="lg" className="bg-white text-primary hover:bg-gray-100">
                   预约咨询

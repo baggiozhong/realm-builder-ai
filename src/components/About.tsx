@@ -4,10 +4,10 @@ import { Users, Award, Target, TrendingUp } from "lucide-react";
 
 const About = () => {
   const stats = [
-    { icon: <Users className="h-8 w-8 text-primary" />, number: "1000+", label: "满意客户" },
-    { icon: <Award className="h-8 w-8 text-primary" />, number: "50+", label: "行业奖项" },
-    { icon: <Target className="h-8 w-8 text-primary" />, number: "99.9%", label: "服务可用性" },
-    { icon: <TrendingUp className="h-8 w-8 text-primary" />, number: "300%", label: "客户增长率" }
+    { icon: <Users className="h-8 w-8 text-primary" />, number: "2021", label: "成立年份" },
+    { icon: <Award className="h-8 w-8 text-primary" />, number: "头部客户", label: "芯片设计厂" },
+    { icon: <Target className="h-8 w-8 text-primary" />, number: "金融机构", label: "大型合作伙伴" },
+    { icon: <TrendingUp className="h-8 w-8 text-primary" />, number: "深圳", label: "总部位置" }
   ];
 
   return (
@@ -17,15 +17,17 @@ const About = () => {
           <div>
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               关于
-              <span className="bg-gradient-primary bg-clip-text text-transparent"> 我们 </span>
+              <span className="bg-gradient-primary bg-clip-text text-transparent"> 兆源软件 </span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              我们是一家专注于数字化转型的科技公司，成立于2020年。凭借深厚的技术积累和丰富的行业经验，
-              我们已经为全球1000多家企业提供了优质的数字化解决方案。
+              兆源软件成立于2021年，是一家专注于中国自主AI可信技术研究的科技公司。
+              我们致力于解决AI的AI信任问题并探索全新的应用方案模范，帮助企业在GenAI时代安全、
+              高效地应用人工智能技术，实现智能化转型。
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              我们的使命是通过创新技术，帮助企业实现数字化转型，提升运营效率，
-              创造更大的商业价值。我们相信技术的力量能够改变世界。
+              我们的核心理念是构建客户能够信任的AI智能体，主要面向芯片行业和各行业的
+              AI应用场景，确保AI应用功课可控中国情况和客户隐私保护服务向内提升企业核心
+              技能。
             </p>
             <Button size="lg" className="bg-gradient-primary hover:opacity-90 text-primary-foreground shadow-glow">
               了解更多

@@ -21,13 +21,16 @@ const Hero = () => {
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            引领未来的
-            <span className="bg-gradient-primary bg-clip-text text-transparent"> 数字化 </span>
-            解决方案
+            兆源软件
+            <span className="bg-gradient-primary bg-clip-text text-transparent"> TrisSource </span>
           </h1>
           
+          <div className="text-2xl md:text-3xl font-semibold text-primary mb-4">
+            Creating The AI We Can Trust
+          </div>
+          
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            我们提供创新的技术服务，帮助企业在数字化时代取得成功。体验前所未有的效率和性能。
+            专注于AI可信度和安全性研究，为企业提供可信赖的AI技术解决方案，让AI技术更安全、更可靠。
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
