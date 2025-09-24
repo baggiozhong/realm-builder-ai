@@ -18,7 +18,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-            TrisSource
+            TriSource
           </div>
           
           {/* Desktop Menu */}
@@ -40,7 +40,7 @@ const Navigation = () => {
                         >
                           <div className="text-sm font-medium leading-none">SemiSeek</div>
                           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                            芯片研发AI助手 - 智能化芯片设计流程优化
+                            芯片研发AI助手
                           </p>
                         </a>
                       </NavigationMenuLink>
@@ -51,7 +51,7 @@ const Navigation = () => {
                         >
                           <div className="text-sm font-medium leading-none">GenAI治理解决方案</div>
                           <p className="line-clamp-2 text-sm leading-snug text-muted-foreground">
-                            AI治理管理平台 - Creating The AI We Can Trust
+                            AI治理管理平台
                           </p>
                         </a>
                       </NavigationMenuLink>
